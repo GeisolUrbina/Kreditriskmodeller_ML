@@ -1,0 +1,44 @@
+{
+  "best_model_cv": "logreg",
+  "cv_mean_scores": {
+    "logreg": 0.6819466998533985,
+    "rf": 0.6203731666171858,
+    "hgb": 0.5896425406951723,
+    "xgb": 0.5886228829649882
+  },
+  "threshold_tuned_f1": 0.46480570838053176,
+  "test_metrics_thr_05": {
+    "roc_auc": 0.6925021514629948,
+    "pr_auc": 0.4392480259340674,
+    "accuracy": 0.7567567567567568,
+    "recall": 0.23214285714285715,
+    "precision": 0.5416666666666666,
+    "f1": 0.325,
+    "brier": 0.17259603651343666
+  },
+  "test_metrics_thr_tuned": {
+    "roc_auc": 0.6925021514629948,
+    "pr_auc": 0.4392480259340674,
+    "accuracy": 0.7567567567567568,
+    "recall": 0.26785714285714285,
+    "precision": 0.5357142857142857,
+    "f1": 0.35714285714285715,
+    "brier": 0.17259603651343666,
+    "threshold": 0.46480570838053176
+  },
+  "timestamp": "20250923-133019",
+  "n_train": 884,
+  "n_test": 222,
+  "num_features": [
+    "age",
+    "years_with_bank",
+    "income",
+    "credit_score",
+    "dti",
+    "missed_payments"
+  ],
+  "cat_features": [
+    "employment_status",
+    "housing"
+  ]
+}
